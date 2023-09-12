@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:black;
+    width: 100%;
+    height: 100px;
+    padding: 30px 30px;
+    display: inline-block;
+    color: blue;
+    font-weight: 400;
+    
+
+} 
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(images/back.jpg)
+
+
+}
+
+
+.gates{
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 25% 10%;
+    border: 10px solid;
+    position: relative;
+    transition: all 0.9s linear;
+    
+    
+    
+    
+
+}
+.gates:hover{
+    border-radius:100%;
+    transform: scale(1.4);
+
+
+    
+}
+
+section h3{
+text-align: center;
+text-decoration:underline;
+font-size:30px ;
+font-weight: 800;
+font-style: italic;
+background-color: black;
+color: rgb(47, 131, 131);
+
+}
